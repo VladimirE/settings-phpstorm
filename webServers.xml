@@ -1,68 +1,20 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="64a3afdc-1bef-4b9c-9971-8c18fae330b7" name="navigation extension" url="http://devphp2.zfort.net">
-        <fileTransfer host="devphp2.zfort.net" port="22" rootFolder="/home/cherepanov/www/cms" accessType="SFTP" username="html" />
-      </webServer>
-      <webServer id="79d7008e-1ef8-4a73-bd13-b6720b9b3f6c" name="test3" url="http://localhost/">
-        <fileTransfer accessType="LOCAL" />
-      </webServer>
-      <webServer id="3bdc6f0b-5fa6-4a53-aa81-3400ab3dc6c4" name="magecore" url="http://magecore.com">
-        <fileTransfer host="magecore.com" port="21" password="dfe7dfcbdfcddfcfdfe9dfc5dfd8dfcfdf9bdf92df9bdf98df8b" username="mage2815">
+      <webServer id="485d9d45-1ed3-4ed2-8fa2-c12b530d729e" name="dev" url="http://devenv.work">
+        <fileTransfer host="devenv.work" port="22" rootFolder="/home/scherepanov/www/devenv" accessType="SFTP">
           <advancedOptions>
-            <advancedOptions passiveMode="true" />
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="967b477d-9157-4a2a-b790-7796088a401e" name="dashboard" url="http://local">
-        <fileTransfer mountedRoot="Z:\dashboard" accessType="MOUNT" />
-      </webServer>
-      <webServer id="ef315cda-0901-4bbe-bba5-c9023644260b" name="craft" url="http://dalv.kh.ua">
-        <fileTransfer host="dalv.kh.ua" port="21" rootFolder="/public_html/new_craft/" password="df9adf9fdf99df93df9fdf9cdf93df93" username="dalvkhua" />
-      </webServer>
-      <webServer id="6c27a542-a9e1-495f-b422-27301972d9e5" name="demo" url="http://demo.magecore.com">
-        <fileTransfer host="demo.magecore.com" port="22" privateKey="C:\Users\Vladimir Eremenko\.ssh\1\private.key" accessType="SFTP" username="veremenko" keyPair="true" />
-      </webServer>
-      <webServer id="2a5509b8-2b24-4750-a455-32cdd2fd1be8" name="oro_comunity" url="http://community.lab.magecore.com/">
-        <fileTransfer host="lab.magecore.com" port="22" privateKey="C:\Users\Vladimir Eremenko\magecoreprivate.ppk" rootFolder="/var/www/community/public_html/" accessType="SFTP" username="vladimire" keyPair="true">
+      <webServer id="17d2da5a-0e65-4dd1-9179-745e00c2dea1" name="scherepanov.dev" url="http://scherepanov.dev">
+        <fileTransfer host="scherepanov.dev" port="10222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/scherepanov/www/dev" accessType="SFTP" keyPair="true">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
           </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="c252c843-1aa9-43f4-b9a7-4c7876aff27a" name="mxproject.org" url="http://zeleniy@lubebe2.mxproject.org">
-        <fileTransfer host="zeleniy@lubebe2.mxproject.org" port="22" rootFolder="/var/www/lubebe2.ru/default/public_html" accessType="SFTP" password="dfd0dfcfdfc6dfcfdfc4dfc3dfd3" username="zeleniy">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="4015aec6-1b6c-4bbb-b698-616c93efd656" name="magecore.lab" url="http://lab.magecore.com">
-        <fileTransfer host="lab.magecore.com" port="22" privateKey="C:\Users\Vladimir Eremenko\magecoreprivate.ppk" rootFolder="/var/www/magecore/public_html" accessType="SFTP" username="vladimire" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="cf7195f8-5350-43a3-8e85-8c67a93e2312" name="dalv.kh.ua" url="http://dalv.kh.ua">
-        <fileTransfer host="dalv.kh.ua" port="21" rootFolder="/x3" password="db95db98dbeedb9edb96dbeedb90dbe6dbe3db90db9fdbe3db9fdbeedb9edf99df9ddf98df9f" username="x3@dalv.kh.ua">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="2b3e5de0-88a1-4c56-b5bd-f9019013fd09" name="konga" url="http://178.20.156.183">
-        <fileTransfer host="178.20.156.183" port="22" rootFolder="/home/i.voinov/data/www/mp.konga.com.ua" accessType="SFTP" password="dff0dfffdfd2df8bdf95dfd8df92df8f" username="root">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="1daeb783-0416-4c30-acc3-1870b6fb61ca" name="POLITRADA" url="http://politrada.front-tools.ru">
-        <fileTransfer host="politrada.front-tools.ru" port="21" rootFolder="/politrada.front-tools.ru" password="dfeedfcfdfccdfd3df98df9cdf98df95" username="politrada_ftp">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
+          <option name="port" value="10222" />
         </fileTransfer>
       </webServer>
     </option>
