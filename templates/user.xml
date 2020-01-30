@@ -1,0 +1,320 @@
+<templateSet group="user">
+  <template name="ttn" value="text-transform: none;" description="text-transform: none;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="dn" value="display: none;" description="display: none;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="fwb" value="font-weight: bold;" description="font-weight: bold;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="fr" value="float:right;" description="float:right;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="fn" value="float:none;" description="float:none;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="bd+" value="border: 1px solid #000;" description="border: 1px solid #000;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="bdt+" value="border-top: 1px solid #000;" description="border-top: 1px solid #000;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="bdb+" value="border-bottom: 1px solid #000;" description="border-bottom: 1px solid #000;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="tac" value="text-align: center;" description="text-align: center;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="tal" value="text-align: left;" description="text-align: left;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="ta:c" value="text-align:center;" description="text-align:center;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="tar" value="text-align: right;" description="text-align: right;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="br" value="border-radius: $VAR0$;" description="border radius" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="uf" value="margin: 0;&#10;padding: 0;&#10;list-style: none;" description="default ul" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="cx" value="&lt;div class=&quot;clearfix&quot;&gt;$END$&lt;/div&gt;" description="clearfix" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="TypeScript" value="false" />
+    </context>
+  </template>
+  <template name="conc" value=" console.clear();" description="console clear" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PHP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="ccl" value="console.log($END$);" description="console log" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PHP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="boxs" value="box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.4);" description="box-shadow" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="j" value="jQuery($END$)" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="jqr" value="$(document).ready(function() {&#10;// Handler for .ready() called.&#10;});" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bgg" value="/* fallback */&#10;background-color: #1a82f7;&#10;background: url(images/linear_bg_2.png);&#10;background-repeat: repeat-x;&#10;/* Safari 4-5, Chrome 1-9 */&#10;background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1a82f7), to(#2F2727));&#10;/* Safari 5.1, Chrome 10+ */ &#10;background: -webkit-linear-gradient(top, #2F2727, #1a82f7); &#10;/* Firefox 3.6+ */ &#10;background: -moz-linear-gradient(top, #2F2727, #1a82f7); &#10;/* IE 10 */&#10;background: -ms-linear-gradient(top, #2F2727, #1a82f7); &#10;/* Opera 11.10+ */ &#10;background: -o-linear-gradient(top, #2F2727, #1a82f7);" description="gradient" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="path" value="{{ path('oro_default') }}" description="path" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+      <option name="TypeScript" value="false" />
+    </context>
+  </template>
+  <template name="phpsrc" value="&lt;?php echo $this-&gt;getSkinUrl('images/$END$') ?&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="box" value="box-sizing: $VAR0$border-box;&#10;-moz-box-sizing: border-box;" description="SIZING" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="af" value="content: '';&#10;float: left;&#10;display: block;&#10;width:16px;&#10;height:16px;&#10;background: url('../images/sprite-horizontal.png') no-repeat -1 -1px;&#10;margin: 3px 0 0 0;" description="after" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="bf" value="float: right;&#10;text-indent: -9999px;&#10;font-size: 0;&#10;line-height: 0;&#10;content: '';&#10;width:16px;&#10;height:16px;&#10;background: url('../images/sprite-horizontal.png') no-repeat -1 -1px;&#10;margin: 3px 0 0 0;" description="before" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="dib" value="display: inline-block;" description="inlinr block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="bgs" value="background: url(&quot;../images/sprite-horizontal.png&quot;) no-repeat;" description="baground" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="phpt" value="&lt;?php echo $this-&gt;__('$END$'); ?&gt;" description="&lt;?php echo $this-&gt;__(''); ?&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="bgb" value="background: url(&quot;../images/$END$&quot;) no-repeat;" description="background: url(&quot;../images/&quot;) no-repeat;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="imgf" value="&lt;img src=&quot;&lt;?php echo $this-&gt;getSkinUrl('images/$END$') ?&gt;&quot; alt=&quot;image&quot; /&gt;" description="images" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="V" value="Verdana, Geneva, sans-serif;$END$" description="font family Verdana" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="trans" value="transition: $END$none;&#10;-webkit-transition: none;" description="transition" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="boxsn" value="box-shadow: none;" description="box-shadow none" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="cptop" value="/**&#10; * @category   design&#10; * @package    rwd_bhcosmetics&#10; * @copyright  Copyright (c) 2014 Oro Inc. DBA MageCore (http://www.magecore.com)&#10; */&#10;" description="cptop" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+    </context>
+  </template>
+  <template name="phpc" value="&lt;?php echo $this-&gt;getChildHtml($END$) ?&gt;" description="getChildHtml" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="cms" value="&lt;block type=&quot;cms/block&quot; name=&quot;homepage.info&quot; as=&quot;homepage_info&quot;&gt;&#10;    &lt;action method=&quot;setBlockId&quot;&gt;&lt;block_id&gt;$END$&lt;/block_id&gt;&lt;/action&gt;&#10;&lt;/block&gt;" description="static block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="bp" value="@include bp(max-width, $END$$bp-large) {&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="vcenter" value="transform: translate(-50%, -50%);&#10;transform: translateY(-50%);&#10;top: 50%;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="center" value="top: 50%;&#10;transform: translateY(-50%);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="bpm" value="@include bp(min-width, $bp-medium +1) {&#10;   $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="p%" value="percentage($END$)" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="bg%" value="background-size: 100% 100%;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="picture" value="&lt;picture&gt;&#10;    &lt;source srcset=&quot;/media/examples/frog.png&quot; media=&quot;(min-width: 1000px)&quot;&gt;&#10;    &lt;img src=&quot;/media/examples/fish.png&quot;&gt;&#10;&lt;/picture&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="rem" value=".px-to-rem(line-height, 13);&#10;.px-to-rem(letter-spacing, 0.8);&#10;.px-to-rem(font-size, 11);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="phpt2" value="&lt;?php echo __('$END$')?&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="tablet" value="@include breakpoint('tablet') {&#10;    $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="mobile" value="@include breakpoint('mobile') {&#10;    $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="desktop" value="@include breakpoint('desktop') {&#10;    $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="body" value="        - '@setOption':&#10;            id: body&#10;            optionName: attr.class&#10;            optionValue: 'shopping-lit-page'" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PHP" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SQL" value="false" />
+      <option name="Twig" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+    </context>
+  </template>
+</templateSet>
