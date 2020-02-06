@@ -1,0 +1,38 @@
+<templateSet group="user">
+  <template name="only-desktop" value="@include only-desktop() {&#10;    $VAR0$&#10;}" description="Is mobile included" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PHP" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="Twig" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="desktop" value="@include breakpoint('desktop') {&#10;    $END$&#10;}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="mobile" value="@include breakpoint('mobile') {&#10;    $END$&#10;}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="tablet" value="@include breakpoint('tablet') {&#10;    $END$&#10;}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>
