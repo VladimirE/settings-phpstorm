@@ -1,0 +1,7 @@
+<templateSet group="Shell Script">
+  <template name="nobel" value="/bundles/bnfrontend/barensandnobel/" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
