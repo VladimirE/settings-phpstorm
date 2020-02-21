@@ -40,7 +40,7 @@
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="empty" value="{% if block.children is not empty %}&#10;{% endif %}" toReformat="false" toShortenFQNames="true">
+  <template name="empty" value="{% if block.children is not empty %}&#10;{% endif %}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>

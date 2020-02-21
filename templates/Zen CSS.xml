@@ -24,7 +24,7 @@
       <option name="CSS_DECLARATION_BLOCK" value="true" />
     </context>
   </template>
-  <template name="container" value=" - '@add':&#10;            id: werner_product_view_cpn_container&#10;            blockType: container&#10;            parentId: product_view_content_container&#10;            siblingId: product_view_attribute_group_general" toReformat="false" toShortenFQNames="true">
+  <template name="container" value=" - '@add':&#10;            id: werner_product_view_cpn_container&#10;            blockType: container&#10;            parentId: product_view_content_container&#10;            siblingId: product_view_attribute_group_general" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
@@ -44,7 +44,7 @@
       <option name="Vue" value="false" />
     </context>
   </template>
-  <template name="block" value="{% block _product_view_related_wrapper_widget %}&#10;    {% set attr =  layout_attr_defaults(attr, {&#10;        '~class': ' product-view__related-wrapper'&#10;    }) %}&#10;&#10;    &lt;div {{ block('block_attributes') }}&gt;&#10;        {{ block_widget(block) }}&#10;    &lt;/div&gt;&#10;{% endblock %}" toReformat="false" toShortenFQNames="true">
+  <template name="block" value="{% block _product_view_related_wrapper_widget %}&#10;    {% set attr =  layout_attr_defaults(attr, {&#10;        '~class': ' product-view__related-wrapper'&#10;    }) %}&#10;&#10;    &lt;div {{ block('block_attributes') }}&gt;&#10;        {{ block_widget(block) }}&#10;    &lt;/div&gt;&#10;{% endblock %}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
