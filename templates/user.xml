@@ -45,7 +45,7 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="remove" value="- '@remove':&#10;    id: featured_products_container" toReformat="false" toShortenFQNames="true">
+  <template name="remove" value="- '@remove':&#10;    id: featured_products_container" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
