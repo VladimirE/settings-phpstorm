@@ -65,7 +65,7 @@
       <option name="Vue" value="false" />
     </context>
   </template>
-  <template name="color" value="color: get-color('additional', 'ultra');" toReformat="false" toShortenFQNames="true">
+  <template name="color" value="color: get-color('additional', 'ultra');" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="true" />
     </context>
