@@ -7,7 +7,6 @@
       <mapping pattern="producer" type="PHP" />
       <mapping pattern="fixoutlet" type="PHP" />
       <mapping pattern="magelogin" type="PHP" />
-      <mapping pattern="1" type="PLAIN_TEXT" />
       <mapping pattern="init-script" type="PLAIN_TEXT" />
       <mapping pattern="akeneo_hydration_buffer_22204" type="PLAIN_TEXT" />
       <mapping pattern="composer" type="PLAIN_TEXT" />
@@ -27,6 +26,7 @@
       <mapping pattern=".php70" type="PLAIN_TEXT" />
       <mapping pattern="233041366636" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern="1" type="PLAIN_TEXT" />
       <mapping pattern="moment-php-format" type="PLAIN_TEXT" />
       <mapping pattern="Put biome config files here" type="PLAIN_TEXT" />
       <mapping pattern="525237021317" type="PLAIN_TEXT" />
