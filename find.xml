@@ -29,8 +29,8 @@
     <mask>*php</mask>
     <mask>php56*</mask>
     <mask>*.xml</mask>
-    <mask>*.yml</mask>
     <mask>*.phtml</mask>
     <mask>*.less</mask>
+    <mask>*.yml</mask>
   </component>
 </application>
