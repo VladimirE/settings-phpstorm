@@ -30,7 +30,7 @@
     <mask>php56*</mask>
     <mask>*.xml</mask>
     <mask>*.phtml</mask>
-    <mask>*.less</mask>
     <mask>*.yml</mask>
+    <mask>*.less</mask>
   </component>
 </application>
