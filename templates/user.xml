@@ -80,7 +80,7 @@
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="picture" value="​&lt;picture&gt;&#10; &lt;source srcset=&quot;END$&quot; media=&quot;(min-width: 600px)&quot;&gt;&#10; &lt;img src=&quot;&quot; alt=&quot;&quot;&gt;&#10;&lt;/picture&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="picture" value="​&lt;picture&gt;&#10; &lt;source srcset=&quot;END$&quot; media=&quot;(min-width: 600px)&quot;&gt;&#10; &lt;img src=&quot;&quot; alt=&quot;&quot;&gt;&#10;&lt;/picture&gt;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
