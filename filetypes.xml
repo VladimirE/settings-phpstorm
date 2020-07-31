@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="liquid" type="HTML" />
       <mapping ext="tmp" type="HTML" />
       <mapping pattern="debug" type="PHP" />
       <mapping pattern="console" type="PHP" />
