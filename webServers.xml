@@ -17,6 +17,14 @@
           <option name="port" value="10222" />
         </fileTransfer>
       </webServer>
+      <webServer id="c04ecbf5-9b10-4d09-b00b-93c693fb84e9" name="langwp2.intra.magecore.com" url="http://langwp2.intra.magecore.com">
+        <fileTransfer host="langwp2.intra.magecore.com" port="22" rootFolder="/var/www/html/magento/university/" accessType="SFTP" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
