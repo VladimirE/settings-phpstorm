@@ -48,6 +48,7 @@
       <mapping ext="lock" type="PLAIN_TEXT" />
       <mapping ext="lang" type="PLAIN_TEXT" />
       <mapping pattern="*.scss.liquid" type="SCSS" />
+      <mapping pattern=".test" type="Twig" />
       <mapping ext="plist" type="XML" />
       <removed_mapping pattern="*scss.liquid" approved="true" type="GitIgnore file" />
       <mapping pattern="erply-push-order" type="Bash" />
