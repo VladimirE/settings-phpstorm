@@ -85,4 +85,9 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="trans" value="{{ 'oro_frontend.$END$'|trans }}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
