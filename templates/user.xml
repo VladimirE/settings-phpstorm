@@ -85,12 +85,12 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="trans" value="{{ 'oro_frontend.$END$'|trans }}" toReformat="false" toShortenFQNames="true">
+  <template name="trans" value="{{ 'oro_frontend.$END$'|trans }}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="center" value="position: absolute;&#10;top: 50%;&#10;right: 50%;&#10;transform: translate(-50%, -50%);" toReformat="false" toShortenFQNames="true">
+  <template name="center" value="position: absolute;&#10;top: 50%;&#10;right: 50%;&#10;transform: translate(-50%, -50%);" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="true" />
     </context>
