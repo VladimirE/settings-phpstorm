@@ -95,4 +95,11 @@
       <option name="CSS" value="true" />
     </context>
   </template>
+  <template name="|t" value="{{ '$end$'|trans }}" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
 </templateSet>
