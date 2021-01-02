@@ -1,0 +1,15 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="devenv.work" id="78e179e0-3148-4126-92b7-ae8e86da23af" port="22" customName="dev" nameFormat="CUSTOM">
+        <option name="customName" value="dev" />
+      </sshConfig>
+      <sshConfig host="scherepanov.dev" id="7b730ce7-ee70-4a35-bf71-81719613041c" keyPath="$USER_HOME$/.ssh/id_rsa" port="10222" customName="scherepanov.dev" nameFormat="CUSTOM">
+        <option name="customName" value="scherepanov.dev" />
+      </sshConfig>
+      <sshConfig authType="OPEN_SSH" host="langwp2.intra.magecore.com" id="14df0419-dfa8-419c-b80f-22242d759b9a" port="22" customName="langwp2.intra.magecore.com" nameFormat="CUSTOM">
+        <option name="customName" value="langwp2.intra.magecore.com" />
+      </sshConfig>
+    </configs>
+  </component>
+</application>
