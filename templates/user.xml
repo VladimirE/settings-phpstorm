@@ -181,4 +181,24 @@
       <option name="Vue" value="false" />
     </context>
   </template>
+  <template name="add:s" value="- '@add':&#10;    id: homepage_category_promo&#10;    parentId: page_content&#10;    blockType: content_block&#10;    siblingId: homepage_top_promo&#10;    prepend: false&#10;    options:&#10;        alias: homepage_category_promo&#10;        vars:&#10;            hideTitle: true" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PHP" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="Twig" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+    </context>
+  </template>
 </templateSet>
