@@ -102,7 +102,7 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="move" value="- '@move':&#10;    id: middle_bar_search&#10;    parentId: middle_bar_right&#10;    prepend: true" toReformat="false" toShortenFQNames="true">
+  <template name="move" value="- '@move':&#10;    id: middle_bar_search&#10;    parentId: middle_bar_right&#10;    prepend: true" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
@@ -122,7 +122,7 @@
       <option name="Vue" value="false" />
     </context>
   </template>
-  <template name="add" value="- '@add':&#10;    id: footer_social&#10;    parentId: page_footer&#10;    siblingId: copyright&#10;    prepend: true&#10;    blockType: block" toReformat="false" toShortenFQNames="true">
+  <template name="add" value="- '@add':&#10;    id: footer_social&#10;    parentId: page_footer&#10;    siblingId: copyright&#10;    prepend: true&#10;    blockType: block" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
@@ -142,7 +142,7 @@
       <option name="Vue" value="false" />
     </context>
   </template>
-  <template name="block" value="{% block _$END$_widget %}&#10;    {% set attr = layout_attr_defaults(attr, {&#10;        '~class': &quot; promo&quot;&#10;    }) %}&#10;    &lt;div {{ block('block_attributes') }}&gt;&#10;       {{ block_widget(block) }}&#10;    &lt;/div&gt;&#10;{% endblock %}" toReformat="false" toShortenFQNames="true">
+  <template name="block" value="{% block _$END$_widget %}&#10;    {% set attr = layout_attr_defaults(attr, {&#10;        '~class': &quot; promo&quot;&#10;    }) %}&#10;    &lt;div {{ block('block_attributes') }}&gt;&#10;       {{ block_widget(block) }}&#10;    &lt;/div&gt;&#10;{% endblock %}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
@@ -161,7 +161,7 @@
       <option name="XML" value="false" />
     </context>
   </template>
-  <template name="add:c" value="- '@add':&#10;    id: exception_visual&#10;    parentId: page_main&#10;    blockType: container&#10;    prepend: true" toReformat="false" toShortenFQNames="true">
+  <template name="add:c" value="- '@add':&#10;    id: exception_visual&#10;    parentId: page_main&#10;    blockType: container&#10;    prepend: true" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
@@ -181,7 +181,7 @@
       <option name="Vue" value="false" />
     </context>
   </template>
-  <template name="add:s" value="- '@add':&#10;    id: homepage_category_promo&#10;    parentId: page_content&#10;    blockType: content_block&#10;    siblingId: homepage_top_promo&#10;    prepend: false&#10;    options:&#10;        alias: homepage_category_promo&#10;        vars:&#10;            hideTitle: true" toReformat="false" toShortenFQNames="true">
+  <template name="add:s" value="- '@add':&#10;    id: homepage_category_promo&#10;    parentId: page_content&#10;    blockType: content_block&#10;    siblingId: homepage_top_promo&#10;    prepend: false&#10;    options:&#10;        alias: homepage_category_promo&#10;        vars:&#10;            hideTitle: true" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
