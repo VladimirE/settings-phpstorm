@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="tmp" type="HTML" />
       <mapping ext="liquid" type="HTML" />
+      <mapping ext="webp" type="Image" />
       <mapping pattern="fixoutlet" type="PHP" />
       <mapping pattern="beholder" type="PHP" />
       <mapping pattern="producer" type="PHP" />
